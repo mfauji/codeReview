@@ -16,32 +16,7 @@ using System.Web.Helpers;
 
 namespace mimoserviceproject.Controllers
 {
-    /* @Method : NWConnectCardIns_FH()
-    * @Param  :{
-                "username":"6281288201053",
-				"cardNumber":"8000100611355489",
-				"udid":"86911260-9050-4E2F-A5C2-F673DAD64E0F",
-                "deviceType":""
-    			}
-
-    * @Return : {
-			"metadata":{
-			  "code":"200",
-			  "message":"Success !"
-			},
-			"data":[
-				{
-					"username":"",
-                    "cardNumber":""
-				}
-			]
-		}
-    * ----------------------------------------------------
-    * Date			    Dev			Remarks
-    * ----------------------------------------------------
-    * 11 Nov 2022		Herri	    initial
-    * ----------------------------------------------------
-    * */
+    
     public class NWConnectCardIns_FH : ApiController
     {
         public string Post([NakedBody] string value)
